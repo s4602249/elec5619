@@ -109,7 +109,7 @@ spring.datasource.password=admin
 <br>
 <br>
 
-- If you plan use the local database, please remove the following code in the `application.properties files`:
+- If you plan use the local database, please remove the following code in the `application.properties` file:
 ```properties
 spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
 ```
