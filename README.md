@@ -21,7 +21,7 @@
 ### 2. Login: 
 - Users can login with correct username, password and captcha. User login page with option to switch role (user or admin).
 - Set session attribute: store user information in session.
-- Remember me: store user name and password in cookie.
+- Remember me: store username and password in cookie.
 ### 3. Find Password: 
 Users can click ‘Forget password?’ on Login page to go to Find Password page. Users can retrieve the password by inputting username, correct answer for secret question and new password. 
 ### 4. Logout: 
@@ -59,7 +59,7 @@ Users can reserve a sports field if the button shows ‘Reserve’. If the butto
 ### 2. Login: 
 - Admin can login with correct username, password and captcha. Admin login page with option to switch role (user or admin).
 - Set session attribute: store admin information in session.
-- Remember me: store admin name and password in cookie.
+- Remember me: store username and password in cookie.
 ### 3. Logout: 
 A link on the navigation bar of each page enables the admin to logout.
 ### 4. View Profile: 
@@ -100,7 +100,7 @@ To run our project, the `database` and project `configuration file` must be re-i
 #### Project
 - You need to access the `application.properties` files in the `src` path.
 - Please set up the `datasource.url`, `username` and `password` refer to the following structure:
-```
+```properties
 spring.datasource.url=jdbc:mysql://34.132.234.105:3306/elec5619?useSSL=false
 spring.datasource.username=elec5619
 spring.datasource.password=admin
@@ -110,7 +110,7 @@ spring.datasource.password=admin
 <br>
 
 - If you plan use the local database, please remove the following code in the `application.properties files`:
-```
+```properties
 spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
 ```
 *(It uses for `Google MySQL Cloud Service` to run the hibernate.)*
