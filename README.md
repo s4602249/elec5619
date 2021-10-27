@@ -3,7 +3,7 @@
 ## Used libraries and their versions:
 
 | Library     | Version       |
-|-------------|---------------|
+|:-----------:|:-------------:|
 | Spring Boot | 2.0.4.RELEASE |
 | JDK         | 13.0.8        |
 | Bootstrap   | 5.1.0         |
@@ -118,7 +118,7 @@ spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
 <br>
 
 ### 3. Run
-- Run `Springboot2WebappJspApplication.class`.
+- Run `'Springboot2WebappJspApplication.class'`.
 - Open a browser and go to `http://localhost:8080/`.
 
 
