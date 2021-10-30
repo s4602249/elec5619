@@ -59,7 +59,6 @@ Users can reserve a sports field if the button shows ‘Reserve’. If the butto
 ### 2. Login: 
 - Admin can login with correct username, password and captcha. Admin login page with option to switch role (user or admin).
 - Set session attribute: store admin information in session.
-- Remember me: store username and password in cookie.
 ### 3. Logout: 
 A link on the navigation bar of each page enables the admin to logout.
 ### 4. View Profile: 
