@@ -104,6 +104,12 @@ spring.datasource.url=jdbc:mysql://34.132.234.105:3306/elec5619?useSSL=false
 spring.datasource.username=elec5619
 spring.datasource.password=admin
 ```
+**If the cloud database is expired, please change to following** 
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/elec5619
+spring.datasource.username=root
+spring.datasource.password=
+```
 *(If you plan to use another database version, you also need to re-config the `database driver name`. You may also need to set the firewall on the cloud service to allow this project access database.)*
 <br>
 <br>
